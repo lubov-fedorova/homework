@@ -1,0 +1,46 @@
+body {
+    font-size: 12px;
+}
+.reference {
+    position: fixed;
+    right: 5%;
+    top: 5%;
+    background-color: #9edd9e;
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+    font-size: 133%;
+    text-transform: uppercase;
+    padding: 0 1%;
+}
+.container {
+    display: flex;
+    flex-flow: column;
+    margin: 0%;
+}
+section {
+    padding: 5px;
+}
+aside {
+    padding: 10px;
+}
+header, footer {
+    display: none;
+}
+h2 {
+    font-size: 180%;
+    text-transform: uppercase;
+    text-align: center;
+}
+h3 {
+    font-size: 130%;
+}
+img {
+    max-width: 100%;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline;
+}

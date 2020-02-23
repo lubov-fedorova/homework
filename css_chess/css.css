@@ -1,0 +1,50 @@
+
+table {
+    margin: 0px auto;
+    width: 500px;
+    height: 500px;
+    border-collapse: collapse;
+}
+td {
+    border: 2px solid #000;
+}
+/* красим ячейки в ч\б */
+tr:nth-child(odd) td:nth-child(even) {
+    background-color: #000;
+}
+tr:nth-child(even) td:nth-child(odd) {
+    background-color: #000;
+}
+/* крсим границы в зеленый - используем костыль с приоритетами */
+tr:first-child td:nth-child(odd) {
+    height: 25px;
+    background-color: #008000;
+}
+tr:first-child td:nth-child(even) {
+    height: 25px;
+    background-color: #008000;
+}
+tr:last-child td:nth-child(odd){
+    height: 25px;
+    background-color: #008000;
+}
+tr:last-child td:nth-child(even){
+    height: 25px;
+    background-color: #008000;
+}
+tr:nth-child(odd) td:first-child {
+    width: 25px;
+    background-color: #008000;
+}
+tr:nth-child(even) td:first-child {
+    width: 25px;
+    background-color: #008000;
+}
+tr:nth-child(odd) td:last-child {
+    width: 25px;
+    background-color: #008000;
+}
+tr:nth-child(even) td:last-child {
+    width: 25px;
+    background-color: #008000;
+}

@@ -1,0 +1,57 @@
+
+.main {
+    display: flex;
+    flex-flow: column;
+}
+p {
+    font-size: 19px;
+    text-align: justify;
+    text-indent: 20px;
+}
+.pictures {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+.biohazard {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 0px;
+    top: 0px;
+    transition-property: z-index;
+}
+.biohazard:hover {
+    z-index: 3;
+}
+.manandwoman {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    right: 0px;
+    top: 0px;
+    transition-property: z-index;
+}
+.manandwoman:hover {
+    z-index: 3;
+}
+.yinandyang {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    right: 125px;
+    bottom: 0px;
+    transition-property: z-index;
+}
+.yinandyang:hover {
+    z-index: 3;
+}
+.nosmokig {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    right: 125px;
+    bottom: 125px;
+}
+

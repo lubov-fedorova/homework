@@ -1,0 +1,61 @@
+body {
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+.reference {
+    position: fixed;
+    right: 10%;
+    top: 10%;
+    background-color: #9edd9e;
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+    font-size: 133%;
+    text-transform: uppercase;
+    padding: 0 1%;
+}
+.container {
+    display: flex;
+    flex-flow: row;
+    margin: 0%;
+}
+section {
+    text-align: justify;
+    order: 2;
+    font-size: 130%;
+    padding: 1%;
+    background-image: url("../media/ball.gif");
+    background-repeat: repeat-y;
+    background-position: right;
+}
+aside {
+    order: 1;
+    background-color: #ffd23c;
+    font-size: 110%;
+    padding: 10px 20px 10px 10px;
+}
+header, footer {
+    margin: 0%;
+    padding: 0.1px;
+    background-color: #8cccd6;
+    color: #000000;
+}
+h2 {
+    font-size: 180%;
+    text-transform: uppercase;
+    text-align: center;
+}
+h3 {
+    font-size: 130%;
+}
+
+.capitalletter {
+    font-size: 200%;
+    text-transform: uppercase;
+    text-align: center;
+}
+img {
+    float: left;
+    margin-right: 2%;
+}

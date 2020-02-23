@@ -1,0 +1,46 @@
+p {
+    font-size: 35px;
+    padding: 45px;
+    text-align: justify;
+}
+
+.left {
+    background-image: url(./media/left.png);
+    background-repeat: repeat-y;
+    background-position: left center;
+}
+.right {
+    background-image: url(./media/right.png);
+    background-repeat: repeat-y;
+    background-position: right center;
+}
+.top {
+    background-image: url(./media/top.png);
+    background-repeat: repeat-x;
+    background-position: center top;
+}
+.bottom {
+    background-image: url(./media/bottom.png);
+    background-repeat: repeat-x;
+    background-position: center bottom;
+}
+.top-left {
+    background-image: url(./media/angletopleft.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.bottom-left {
+    background-image: url(./media/anglebottomleft.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+} 
+ .top-right {
+    background-image: url(./media/angletopright.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+} 
+.bottom-right {
+    background-image: url(./media/anglebottomright.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
